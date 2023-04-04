@@ -2,7 +2,6 @@ const { expect } = require("chai");
 const { network, ethers } = require("hardhat");
 const { BigNumber, utils }  = require("ethers");
 const { writeFile } = require('fs');
-require('dotenv').config()
 
 describe("Liquidation test for question 2", function () {
   it("TEST Liquidation 2000 USDT", async function (input = "2000") {
